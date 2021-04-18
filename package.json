@@ -1,0 +1,26 @@
+{
+  "name": "developer_tools_2",
+  "version": "1.0.0",
+  "description": "Add a column to leetcode problemset page to show submissions",
+  "main": "solution.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "jest": "^26.4.2",
+    "jest-junit": "^11.1.0",
+    "objects-to-csv": "^1.3.6"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  },
+  "jest-junit": {
+    "outputDirectory": "output",
+    "outputName": "result.xml"
+  }
+}
